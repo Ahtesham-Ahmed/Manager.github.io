@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(8, 9, 9);
+    color: white;
+}
+.demo {
+
+    color: rgb(221,76,76);
+    text-decoration: none;
+}
+
+.demo1 {
+    color: rgb(221,76,76);
+}
+
+i {
+    color: rgb(221,76,76);
+    font-size: 20px;
+}
+
+li a:hover {
+    border-bottom: 3px solid rgb(221,76,76);
+}
+
+.myForm{
+    background-color: rgb(33, 37, 41);
+    border-bottom: 2px solid rgb(221,76,76);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    color: white;
+}
+
+.parallax{
+    background-image: url('./image/machine2.jpg');
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    color: red;
+}
+::placeholder {
+    color: white;
+    
+  }
+  
+  .btn{
+    background-color: rgb(221,76,76);
+    color: white;
+  }
+
+  .btn:hover{
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+  }
+  .resume {
+    text-decoration: none;
+    color: white;
+  }
+
+  .resume:hover{
+    background-color: white;
+    color: black;
+  }
+
+
+  /* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Neon effect */
+.neon {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #ff00ff,
+        0 0 30px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 50px #ff00ff,
+        0 0 60px #ff00ff;
+}
+
+/* Button animations */
+@keyframes neonGlow {
+    0%, 100% {
+        box-shadow: 0 0 5px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+    }
+    50% {
+        box-shadow: 0 0 10px #ff00ff, 0 0 30px #ff00ff, 0 0 60px #ff00ff;
+    }
+}
+
+.neon-button {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #ff00ff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #fff;
+    animation: neonGlow 1.5s infinite alternate;
+}
+
+
+.myList {
+    list-style-type: none;
+}
