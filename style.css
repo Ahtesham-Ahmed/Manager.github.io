@@ -118,3 +118,28 @@ li a:hover {
 .myList {
     list-style-type: none;
 }
+
+
+.carousel-inner img {
+    width: 100%;
+    height: auto; /* Auto height to adjust based on the width */
+    object-fit: cover; /* Ensures uniform scaling without distortion */
+}
+
+@media (min-width: 576px) {
+    .carousel-inner img {
+        height: 300px; /* Slightly smaller height for small screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-inner img {
+        height: 350px; /* Medium height for tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-inner img {
+        height: 650px; /* Full height for larger screens */
+    }
+}
