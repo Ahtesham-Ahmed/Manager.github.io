@@ -44,8 +44,19 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link rel="stylesheet" href="./style.css">
+<style>
+    ul.list-group {
+    background-color: black; /* Ensures <ul> has black background */
+    color: white; /* Optional: Adjust text color for readability */
+    padding: 10px; /* Adds spacing inside the <ul> */
+}
 
+ul.list-group > li.list-group-item {
+    background-color: inherit; /* Ensures child <li> inherits the background color of <ul> */
+    color: inherit; /* Optional: Makes text color consistent */
+}
 
+</style>
 </head>
 
 <body>
@@ -83,7 +94,7 @@
     </nav>
     <div class="container  text-center mt-5">
         <img src="./image/ahtesham.jpg" class="image-fluid w-50 d-inline-block mt-0"
-            style="clip-path: circle(40% at 50% 50%);">
+            style="clip-path: circle(40% at 50% 50%);" alt="M Ahtesham Ahmed">
     </div>
     <div class="container mt-5">
         <h2>Experience <span><button class="btn float-end"><a href="./Muhammad Ahtshaam Ahmad.pdf" class="resume" download>Download Resume</a></button></span></h2>
